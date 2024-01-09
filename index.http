@@ -1,0 +1,39 @@
+### books
+GET http://localhost:3000/books/
+
+### users
+GET http://localhost:3000/users/
+
+### new book
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+    "title" : "chandu Gaadu Vadevado Vaanike artam kaadu",
+    "authorId" : 1, 
+    "rating" : 143,
+    "ratingCount" : 2
+}
+
+### new user
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "username" : "chandrakanth",
+    "name" : "chandrakanth sirusala", 
+    "password" : "7702180472",
+    "gender" : "Male",
+    "location" : "Polaram"
+}
+
+### login user 
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username" : "chandrakanth",
+    "password" :"7702180472"
+}
+
+
